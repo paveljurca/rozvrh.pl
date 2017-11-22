@@ -1,0 +1,443 @@
+commit 8e6f19736d7add974d8492c6ec057c542973fbbd
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Oct 19 12:37:34 2016 +0200
+
+    diff between git version and live version on the system
+
+commit 1cbb6df21f28500fb04759c509c752d5d7bb933e
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Oct 19 12:22:29 2016 +0200
+
+    added debug line for testing; calling 'open' needs to be commented out though
+
+commit ee959d79583453d563f4b39b205df4e0b4eb0446
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Oct 12 19:05:54 2015 +0200
+
+    clarified
+
+commit 080a08d7153b5b665d5257195e89d2e614ef92d3
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Oct 12 15:34:27 2015 +0200
+
+    pretty
+
+commit af779dcbdcc56de350aec4c743d27f689208851f
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 29 08:53:36 2015 +0200
+
+    's///' inside of 'map' destroying orig values
+
+commit 770be09c4d568d6476ae1882d5441adf28843687
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Sep 25 17:07:55 2015 +0200
+
+    min 6 chars column width; fixed silly bug to get digits from string;
+
+commit 385aae33c338c653467988329f4b9558b7f41640
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 22 10:37:53 2015 +0200
+
+    increased panel delay to 51 sec
+
+commit e862a8c9324b1c68f6e144a09780a678dc7c6115
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 22 10:36:10 2015 +0200
+
+    changed '&&' for 'and' in flow control
+
+commit b3c3051d148bcd4e12201b3f89738b32fc0f810c
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Sep 17 14:02:20 2015 +0200
+
+    Jižní Město
+
+commit 0a3649f5672ea6b0cebd469fe94276ef92ce4d87
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Sep 11 23:22:58 2015 +0200
+
+    && over *and* in logical comparison
+
+commit 2f001e65f46abfa4c97b1d16f6f83f9c4c658c0d
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Sep 11 08:46:28 2015 +0200
+
+    mea culpa: s/// in map changed obviously the original values too
+
+commit 71264665861c49af52288d969ab8ca5774e8da96
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Sep 10 18:29:17 2015 +0200
+
+    fixed $prijm being undefined
+
+commit 2725d1c226d18e617b349e717b5f55e248136f00
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Sep 10 10:19:47 2015 +0200
+
+    undefined regex match; the higher precedence || breaks a list-context
+
+commit 5a141d566d5f7b243a31b6fa5ad42d803a345a6a
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Sep 9 19:11:13 2015 +0200
+
+    'Ž' to 'ž'
+
+commit c0188ec3328e55368e4c55145feb2d2d0cae34f4
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Sep 9 18:59:32 2015 +0200
+
+    fixed map func param greediness
+
+commit 93706c0572dc95ce02fddfa53e2349af809fb32f
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Sep 9 17:55:55 2015 +0200
+
+    changed 'z' to 'ž' in a charset table
+
+commit 43a72a7e5ecbc4656054deeb7b69b88da98cb162
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Sep 9 15:02:27 2015 +0200
+
+    adjusted text output and delay; a better placeholder
+
+commit 8e8300028e8d7554e3c5dc373b58b7187312a019
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Sep 9 14:32:26 2015 +0200
+
+    rozvrhy mimo pravidelny cas, a placeholder v pripade volneho dne
+
+commit e6167c92ed8a91e6f2452dbb30c00bf8b58ed6ae
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Sep 4 16:39:56 2015 +0200
+
+    @
+
+commit fbfdff4047773622af92a1fed56cdf7181fa66ab
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Sep 4 14:27:27 2015 +0200
+
+    @
+
+commit f10e8f13b8e4ae1ad7725832fa47ff68c1029b86
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Sep 4 10:55:00 2015 +0200
+
+    formatted perldoc better
+
+commit fe122503e7c19d7d6769a1db85ec7d04ba519d06
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Sep 2 12:42:40 2015 +0200
+
+    removed chomp call
+
+commit 56dede62d97c263c712d67f5d38d332e41039477
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Sep 2 08:36:21 2015 +0200
+
+    prettified
+
+commit 4976d9984c5d4b4ba61fdb937bb13090a2fb2685
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 1 16:58:39 2015 +0200
+
+    I did it!
+
+commit 67c58f6542555e2542eaadde7d7b200566e321b3
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 1 16:30:52 2015 +0200
+
+    debug
+
+commit b8aa85cb280ab950191dc4520331c1419dec47cd
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 1 16:15:38 2015 +0200
+
+    added newline ahead of every $cas segment
+
+commit 71606eeeb3cd6afda4f7ebd18cec12176c998ff6
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 1 15:55:22 2015 +0200
+
+    done! v3
+
+commit cc0a5c7464102e23f16557fbcb64d05692e17a1d
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 1 15:17:41 2015 +0200
+
+    the @panel dereferenced right
+
+commit 4033fd0abff90d9389e5eb35dcf8be92e514d331
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 1 14:05:04 2015 +0200
+
+    done! v2
+
+commit 53016351f64c10bbc69032ff2d26bd63d2ab86b7
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Sep 1 11:15:28 2015 +0200
+
+    znaky nad 127 ASCII nahrazeny '?'
+
+commit 714adf66b74820e05c8d6faeb8dbdfdc13169df2
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 20:21:15 2015 +0200
+
+    keeping it backward compatible ;)
+
+commit 6c3d11ca1ebaeef49107fe624a522312929aace9
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 20:08:13 2015 +0200
+
+    done!
+
+commit 8da740fde49c37f6c46eb647a58807aee419a4aa
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 17:52:44 2015 +0200
+
+    @TODO trim vystupu na 15 radku
+
+commit 7383ea2dec7fd6a4be48c3213f83a95a5f61255b
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 16:02:14 2015 +0200
+
+    debug
+
+commit f31a53fe5530b92967cdc6e5a8981fdd55d71929
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 15:51:41 2015 +0200
+
+    http GET 3 tries
+
+commit fac286ae1837e0bc661774acee4ef08157858c5a
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 15:14:46 2015 +0200
+
+    added seconds
+
+commit 91b13342fc44a1aec4aa4cb7eb57b6dbccf0947b
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 14:37:49 2015 +0200
+
+    uncomment header
+
+commit d4e998e383cddeda78a7f0f61863c45386c2b2a0
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 14:35:52 2015 +0200
+
+    debug
+
+commit 607a7a181bf0c068b0c497830740b5c3987d64ec
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 14:22:10 2015 +0200
+
+    debug
+
+commit 3cd1df951cbbdeb2f0db8f8dee5517697031c6de
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 13:36:42 2015 +0200
+
+    debug
+
+commit babe4e73f7ad8a5147c514d33557152947256299
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 10:59:00 2015 +0200
+
+    removed "\r"
+
+commit 18d6a86862e53ff341379a20a65c09ad86a64f0e
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 10:55:40 2015 +0200
+
+    debug
+
+commit 14201bd60778389def94084e882927c9ed595828
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 10:26:34 2015 +0200
+
+    debug
+
+commit fd0c27e3f51377f8ccfbfac5fa44cd92bf4dba30
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 10:08:56 2015 +0200
+
+    debug
+
+commit 0ae4fb74ee054439e894cb14b0a79eef2afab67a
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 09:53:55 2015 +0200
+
+    debug
+
+commit 7101b575ad3ff1b13b530943b87c7340a516a0cf
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 08:45:43 2015 +0200
+
+    debug
+
+commit 7b7fcec3174af9fe5df816e7823f70add81c40a4
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 31 08:13:49 2015 +0200
+
+    debug
+
+commit dc1de453f01420cdb5d41365e14c463a6282c552
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Sat Aug 29 19:02:00 2015 +0200
+
+    still in a debug mode
+
+commit b067bfbe6b43d535b18b0bda314aaff9e8615ee1
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Aug 28 23:19:22 2015 +0200
+
+    .
+
+commit def1309fcf5ebcb18f6d6ad90de92a853401e130
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Aug 28 22:13:52 2015 +0200
+
+    .
+
+commit 291ba0d139b16e60784a2b5668d7eed7a7021589
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Aug 28 19:56:24 2015 +0200
+
+     escape error
+
+commit b76dcca93be8d30f40667fb499b032da6e8daea0
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Aug 28 19:34:08 2015 +0200
+
+    File::Spec->catpath VOLUME bug
+
+commit 71cbb37c161139d54be45696b62b4a6fb95eb387
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Aug 28 18:59:44 2015 +0200
+
+    done v2
+
+commit 4ffe873ed7efe6b79ced1f73ae802c350913aac4
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Aug 28 18:32:45 2015 +0200
+
+    done
+
+commit 06c0488693fa6b4e817d56402d1160d5aa5b79b8
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Aug 28 17:51:14 2015 +0200
+
+    .
+
+commit 738f6cc9701ac81059b42edf66b449927f0e228d
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Fri Aug 28 16:01:10 2015 +0200
+
+    .
+
+commit 6b49b4ade2c15d10b4ad23f44cda3e771c203855
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 27 20:42:36 2015 +0200
+
+    helper file to generate a charset hash
+
+commit 99af8666620f7b14c7b0ed82c9f0f6c40aaa55f4
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 27 20:37:13 2015 +0200
+
+    deklarace znak. sady
+
+commit 5df5682e29762b70cdcce5d84b0e9dcc696941a2
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 27 20:16:23 2015 +0200
+
+    doplnena sada
+
+commit 2722b41af43c368b764ff9599b971088ed279223
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 27 16:26:14 2015 +0200
+
+    .
+
+commit a6d114bd2f41a98d49fbaae21a627ce3ac95b107
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 27 15:57:24 2015 +0200
+
+    Pavel Jurca
+
+commit 9951013deb5f89a44fd3a019ba078807a6be33bb
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 27 15:48:09 2015 +0200
+
+    sprintf
+
+commit 74a75f75fc7f4b2a39d9441b303d471d9c647507
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 27 15:40:49 2015 +0200
+
+    .
+
+commit 54dbdb729b1fc8da0504d1ed1245ae60734f284c
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 27 14:48:30 2015 +0200
+
+    .
+
+commit aebdb0965c6e68be7dd4a959dfb73e41be6f648a
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 27 14:26:06 2015 +0200
+
+    IDENT o radek niz
+
+commit 5c497e27e17f448cef65b808c56b15eed856593b
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Aug 26 17:12:48 2015 +0200
+
+    .
+
+commit d4ab95f6f37aa73d0592ad264b15b21c94ea1a4d
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Wed Aug 26 14:15:12 2015 +0200
+
+    @
+
+commit 2342f40d5f72b69d9767399610d7323aa16f5b60
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Aug 25 15:27:47 2015 +0200
+
+    @
+
+commit 76dd1d745affa090e5aff6d520eef41eb363e234
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Mon Aug 24 11:31:58 2015 +0200
+
+    vlozeny testovaci data do sloupce 'Kod'
+
+commit 93acda426daba3dc6dcb74e326bab961556dcfd3
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Thu Aug 20 15:17:52 2015 +0200
+
+    @
+
+commit dd6565db74881c76924d9a138ca72921e3a1fe65
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Aug 11 13:59:19 2015 +0200
+
+    binmode :bytes
+
+commit 35afb41f1d008634b266c35b43e914c804106603
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Aug 11 10:47:36 2015 +0200
+
+    matrix 30 x 15
+
+commit 449f4ca1214c56b67de3b8a34648948b5ec94476
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Aug 11 10:39:43 2015 +0200
+
+    charset table
+
+commit 78f824578de928148aeb24561964cb6f89a49853
+Author: Pavel Jurča <paveljurca@users.noreply.github.com>
+Date:   Tue Jul 28 19:33:31 2015 +0200
+
+    @
