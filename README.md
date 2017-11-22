@@ -1,6 +1,6 @@
 # Timetables
 
-![timetables](timetables.jpg)
+![timetables](i/timetables.jpg)
 
 ### About
 

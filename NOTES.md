@@ -3,7 +3,7 @@ Spectrum
 
 A multi-line text panel *SPECTRUM* has 15 rows by 30 columns and it hangs out at a few schools and canteens here in the Czech Republic. So instead of dull data like opening hours wouldn't it be nice to have a room(s) schedule(s) there?
 
-![SPECTRUM display](d/display.jpg)
+![SPECTRUM display](i/display.jpg)
 
 The display needs to load all the files at once. We use [Windows Task Scheduler](https://en.wikipedia.org/wiki/Windows_Task_Scheduler) to run a yet-to-be-written script every morning just before classes start.
 
@@ -24,7 +24,7 @@ The display needs to load all the files at once. We use [Windows Task Scheduler]
 
 `keybuf.exe` is a DOS keyboard buffer which simulates a key press. Colleague of mine wrote this. `eeeey` is a sequence of chars whose are send to `spectrum.exe` that actually reloads the text panel (the display) with just updated files.
 
-![spectrum.exe](d/spectrum.png)
+![spectrum.exe](i/spectrum.png)
 
 Files are `0730.325, 0915.325, 1100.325, 1245.325, 1430.325, 1615.325 and 1800.325`. You're right, these're classes start times. 325 is a proprietary file format used by the display. Now, where's the actual data, i.e. subjects, teachers, rooms and times? Luckily the [university information system](http://www.uis-info.com/en/index) we use has an [API](https://en.wikipedia.org/wiki/Web_API). You request a given URL with a room id as a parameter and get the room schedule for today. And because the world isn't perfect, it's not [JSON](https://developer.mozilla.org/en-US/docs/Glossary/JSON) but HTML. So we'll do some [web scraping](https://en.wikipedia.org/wiki/Web_scraping). The SPECTRUM text panel has of course it's own [charset table](https://en.wikipedia.org/wiki/ASCII#ASCII_printable_code_chart) to display czech chars and not exceed one byte. So we ought to remap non-ASCII chars and output bytes. So [pick the right tool for the job](http://c2.com/cgi/wiki?PickTheRightToolForTheJob). We'll do some [Perl](http://qntm.org/files/perl/perl.html)!
 
@@ -437,16 +437,9 @@ Matrix at the end of a file stores control chars for each row. Number of lines â
         print "(i) written\n";
     }
 
-Done.
-
-![classes.pl does room schedules](d/display2.jpg)
-
 Last thing, we set times on each file as when to show off
 
-![spectrum.exe](d/spectrum2.png)
+![spectrum.exe](i/spectrum2.png)
 
-For the source code, just [let me know](http://paveljurca.com).
-
-p.s. The sub `print_panels` is a mess. It should rather go with one sub to create panels and one to print or save them. At least we've experienced Perl named blocks.
-
+p.s. The sub `print_panels` is a mess. It should rather go with one sub to create panels and one to print or save them.
 
